@@ -20,7 +20,7 @@ function HeroSection() {
             buttonSize="bton--large"
             onClick={() =>
               window.open(
-                "https://github.com/jrnolasc/Resume/blob/04b3ea724ca9fe21ec6a3745201b07471499ab56/Julio_Nolasco_Resume.pdf",
+                "https://github.com/jrnolasc/Resume/blob/main/Julio_Nolasco_Resume.pdf",
                 "_blank"
               )
             }

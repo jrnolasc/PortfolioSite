@@ -91,9 +91,9 @@
     .aboutMe-Container {
       height: 60vh;
       text-align: center;
-        .abtMe{
-        text-align: center;
-      }
+    }
+    .abtMe{
+      text-align: center;
     }
   }
   

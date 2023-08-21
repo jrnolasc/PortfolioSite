@@ -159,3 +159,19 @@
         width: 100%;
     }
    }
+   @media(max-width: 440px)
+   {
+    .project-left{
+        width: 80%;
+        height: fit-content;
+    }
+    .project-right{
+        width: 80%;
+        height: fit-content;
+         
+    }
+    .img{
+        height: 60%;
+        width: 100%;
+    }
+   }
