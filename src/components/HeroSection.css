@@ -49,10 +49,6 @@
     margin-top: 6px;
 }
 
-
-
-
-
 @media screen and (max-width: 960px) {
   .hero-container{
     flex-direction: column;
@@ -104,4 +100,20 @@
     }
 
   }
+
+  @media screen and (max-width: 270px) 
+  {
+    
+    .hero-title{
+      text-align: center;
+      font-size: 20px;
+    }
+    .greeting{
+      font-size: 15px;
+    }
+    .hero-description{
+      font-size: 15px;
+    }
+  }
+
 

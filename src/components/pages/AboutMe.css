@@ -37,7 +37,7 @@
 .aboutMe-Container .skill-box{
   display: inline-block;  
   border: 2px solid rgb(30, 69, 70); 
-  height: 22vh;
+  height: auto;
   width: auto;
   border-radius: 5px; 
   transition: all .4s ease-in-out;

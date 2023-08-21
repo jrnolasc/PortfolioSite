@@ -72,7 +72,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="contact"
+                to="contact-container"
                 className="nav-links"
                 spy={true}
                 smooth={true}

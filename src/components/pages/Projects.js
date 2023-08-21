@@ -9,40 +9,91 @@ function Projects() {
         <h1 className="project-title">Projects</h1>
         <div className="projects-grid">
           <div className="project-left">
-            <img className="img" src="images/header_img.png" alt="id" />
-            <p className="project-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <img className="img" src="images/HTHAS.png" alt="id" />
+            {/* <div className="hover-item"></div> */}
+            <div className="project-text">
+              <h3 className="project-name"> Houseing The Human and Sacred</h3>
+              <p>
+                An innovative WebGL application enabling users to explore
+                residences envisioned by the acclaimed architect Fay Jones.
+              </p>
+              <div className="tech-stack">
+                <p className="tech">Unity</p>
+                <p className="tech">C#</p>
+              </div>
+              <div className="project-links">
+                <p
+                  className="link-icons"
+                  onClick={() =>
+                    window.open(
+                      "https://tesseract.hosted.uark.edu/human_and_sacred/public/virtualtour.html",
+                      "_blank"
+                    )
+                  }
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </p>
+              </div>
+            </div>
           </div>
           <div className="project-right">
-            <img className="img" src="images/header_img.png" alt="id" />
-            <p className="project-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <img className="img" src="images/HTHAS.png" alt="id" />
+            {/* <div className="hover-item"></div> */}
+            <div className="project-text">
+              <h3 className="project-name"> Houseing The Human and Sacred</h3>
+              <p>
+                An innovative WebGL application enabling users to explore
+                residences envisioned by the acclaimed architect Fay Jones.
+              </p>
+              <div className="tech-stack">
+                <p className="tech">Unity</p>
+                <p className="tech">C#</p>
+              </div>
+              <div className="project-links">
+                <p
+                  className="link-icons"
+                  onClick={() =>
+                    window.open(
+                      "https://tesseract.hosted.uark.edu/human_and_sacred/public/virtualtour.html",
+                      "_blank"
+                    )
+                  }
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </p>
+              </div>
+            </div>
           </div>
           <div className="project-left">
-            <img className="img" src="images/header_img.png" alt="id" />
-            <p className="project-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <img className="img" src="images/St.Mary_360.JPG" alt="id" />
+            {/* <div className="hover-item"></div> */}
+            <div className="project-text">
+              <h3 className="project-name"> St.Mary_360</h3>
+              <p>
+                An immersive 360-degree tour unveiling the captivating interiors
+                and architectural nuances of St. Mary's Church in Altus,
+                Arkansas. Embark on a digital journey that transports you
+                through the sacred spaces and rich history of this cherished
+                architectural.
+              </p>
+              <div className="tech-stack">
+                <p className="tech">Unity</p>
+                <p className="tech">C#</p>
+              </div>
+              <div className="project-links">
+                <p
+                  className="link-icons"
+                  onClick={() =>
+                    window.open(
+                      "https://migrantvoices.uark.edu/german/",
+                      "_blank"
+                    )
+                  }
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
