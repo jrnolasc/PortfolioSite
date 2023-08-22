@@ -6,7 +6,7 @@ function Contact() {
     <div className="contact-container">
       <h1 className="contact-title">Contact</h1>
       <p className="contact-msg">Let's get in touch!</p>
-      <div className="content">
+      <div className="contact-content">
         <div className="info-box">
           <span className="icons">
             <i class="fa-regular fa-envelope"></i>

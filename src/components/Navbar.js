@@ -26,7 +26,9 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <p className="navbar-logo">jnDev</p>
+          <Link className="navbar-logo" to="hero-container">
+            jnDev
+          </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>

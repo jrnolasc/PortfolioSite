@@ -101,19 +101,19 @@
 
   }
 
-  @media screen and (max-width: 270px) 
+  @media screen and (max-width: 430px) 
   {
     
     .hero-title{
       text-align: center;
-      font-size: 20px;
+     
     }
     .greeting{
-      font-size: 15px;
+      
       text-align: center;
     }
     .hero-description{
-      font-size: 15px;
+     
     }
   }
 
