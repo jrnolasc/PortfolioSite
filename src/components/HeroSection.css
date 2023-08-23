@@ -1,15 +1,14 @@
-
+.hero-container{
+  height: 95vh;
+  background-color:#3d6084; 
+}
 .hero-content{
-  background-color:#3d6084;  
-  height: 100vh;
   display: flex;
   align-items: center;
-  object-fit: contain;
   justify-content: center;
   gap: 3rem;
 }
 .leftSection{
- 
   padding: 1rem ;
 }
 
@@ -41,21 +40,29 @@
     color: #ffffff ;
     
 }
-.hero-btns{
-    margin-top: 32px;
-}
 
-.hero-btns .btn{
+
+.btn{
     margin-top: 6px;
 }
 
-@media screen and (max-width: 960px) {
+@media  screen and (max-height: 590px)
+{
+  .hero-container{
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 980px) {
   .hero-container{
     flex-direction: column;
     text-align: center;
-     .greeting{
-      text-align: center;
-    }
+    height: 120vh;
+    
+     
+  }
+  .greeting{
+    text-align: center;
   }
     .hero-container > h1 {
       font-size: 70px;

@@ -69,11 +69,8 @@
 }
 
 .summary{
-    
-    
-    
-
-    
+    text-align: center;
+    padding: 1rem 8rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -83,6 +80,7 @@
       text-align: center;
         .abtMe{
         text-align: center;
+        
       }
     }
   }
@@ -94,8 +92,34 @@
     }
     .abtMe{
       text-align: center;
+      
     }
   }
+  
+  @media only screen and (max-height: 1001px) {
+    .aboutMe-Container {
+      height: auto;
+    }
+  }
+
+  @media screen and (max-height: 590px) {
+    .aboutMe-Container {
+      
+    }
+    .abtMe{
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 430px) 
+  {
+    .abtMe{
+      text-align: center;
+    }
+  }
+
+
+
   
   
 

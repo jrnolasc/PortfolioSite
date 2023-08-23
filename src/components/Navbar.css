@@ -103,7 +103,8 @@
       text-align: center;
       width: 100%;
       display: table;
-      padding-top: 10rem;
+      position: relative;
+      top: 150px;
     }
   
     .nav-links:hover {

@@ -9,7 +9,7 @@ function Projects() {
         <h1 className="project-title">Projects</h1>
         <div className="projects-grid">
           <div className="project-left">
-            <img className="img" src="images/HTHAS.png" alt="id" />
+            <img className="project-image" src="images/HTHAS.png" alt="id" />
             {/* <div className="hover-item"></div> */}
             <div className="project-text">
               <h3 className="project-name"> Houseing The Human and Sacred</h3>
@@ -37,7 +37,7 @@ function Projects() {
             </div>
           </div>
           <div className="project-right">
-            <img className="img" src="images/HTHAS.png" alt="id" />
+            <img className="project-image" src="images/HTHAS.png" alt="id" />
             {/* <div className="hover-item"></div> */}
             <div className="project-text">
               <h3 className="project-name"> Houseing The Human and Sacred</h3>
@@ -65,7 +65,7 @@ function Projects() {
             </div>
           </div>
           <div className="project-left">
-            <img className="img" src="images/St.Mary_360.JPG" alt="id" />
+            <img className="project-image" src="images/HTHAS.png" alt="id" />
             {/* <div className="hover-item"></div> */}
             <div className="project-text">
               <h3 className="project-name"> St.Mary_360</h3>
