@@ -18,7 +18,12 @@ function Contact() {
         </div>
         <div className="info-box">
           <span className="icons">
-            <i class="fa-brands fa-github"></i>
+            <i
+              onClick={() =>
+                window.open("https://github.com/jrnolasc", "_blank")
+              }
+              class="fa-brands fa-github"
+            ></i>
           </span>
           <div className="info-text">
             <h3>Github</h3>

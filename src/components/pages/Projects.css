@@ -4,7 +4,7 @@
 .project-title{
     text-align: center;
     margin: 3rem;
-
+    color: rgb(30, 69, 70);
 }
 
 .projects-content{
@@ -126,7 +126,7 @@
     }
    }
 
-   @media only screen and (max-height: 1020px)
+   @media only screen and (max-height: 1000px)
    { 
         .projects-grid{
         align-items: center;
@@ -137,7 +137,7 @@
 
         
    }
-   @media only screen and (max-width: 1020px)
+   @media only screen and (max-width: 900px)
    {
     .projects-grid{
         align-items: center;

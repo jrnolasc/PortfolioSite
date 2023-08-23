@@ -53,11 +53,11 @@
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
   .hero-container{
     flex-direction: column;
     text-align: center;
-    height: 120vh;
+    height: 130vh;
     
      
   }
@@ -110,7 +110,9 @@
 
   @media screen and (max-width: 430px) 
   {
-    
+    .hero-container{
+      height: 85vh;
+    }
     .hero-title{
       text-align: center;
      
@@ -119,9 +121,7 @@
       
       text-align: center;
     }
-    .hero-description{
-     
-    }
+    
   }
 
 

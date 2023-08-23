@@ -32,6 +32,11 @@
     font-size: 2rem ;
 }
 
+.fa-github:hover{
+        color:rgb(13, 134, 138);;
+        cursor: pointer; 
+}
+
  .icons{
     background-color: white;
     padding: 1rem;
