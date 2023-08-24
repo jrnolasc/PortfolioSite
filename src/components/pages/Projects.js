@@ -9,10 +9,20 @@ function Projects() {
         <h1 className="project-title">Projects</h1>
         <div className="projects-grid">
           <div className="project-left">
-            <img className="project-image" src="images/HTHAS.png" alt="id" />
+            <img
+              className="project-image"
+              src="images/HTHAS.png"
+              alt="Housing The Human and Sacred"
+              onClick={() =>
+                window.open(
+                  "https://tesseract.hosted.uark.edu/human_and_sacred/public/virtualtour.html",
+                  "_blank"
+                )
+              }
+            />
             {/* <div className="hover-item"></div> */}
             <div className="project-text">
-              <h3 className="project-name"> Houseing The Human and Sacred</h3>
+              <h3 className="project-name"> Housing The Human and Sacred</h3>
               <p>
                 An innovative WebGL application enabling users to explore
                 residences envisioned by the acclaimed architect Fay Jones.
@@ -37,10 +47,20 @@ function Projects() {
             </div>
           </div>
           <div className="project-right">
-            <img className="project-image" src="images/HTHAS.png" alt="id" />
+            <img
+              className="project-image"
+              src="images/HTHAS.png"
+              alt="Housing The Human and Sacred"
+              onClick={() =>
+                window.open(
+                  "https://tesseract.hosted.uark.edu/human_and_sacred/public/virtualtour.html",
+                  "_blank"
+                )
+              }
+            />
             {/* <div className="hover-item"></div> */}
             <div className="project-text">
-              <h3 className="project-name"> Houseing The Human and Sacred</h3>
+              <h3 className="project-name"> Housing The Human and Sacred</h3>
               <p>
                 An innovative WebGL application enabling users to explore
                 residences envisioned by the acclaimed architect Fay Jones.
@@ -65,7 +85,14 @@ function Projects() {
             </div>
           </div>
           <div className="project-left">
-            <img className="project-image" src="images/HTHAS.png" alt="id" />
+            <img
+              className="project-image"
+              src="images/St.Mary's360.PNG"
+              alt="St.Mary's_360"
+              onClick={() =>
+                window.open("https://migrantvoices.uark.edu/german/", "_blank")
+              }
+            />
             {/* <div className="hover-item"></div> */}
             <div className="project-text">
               <h3 className="project-name"> St.Mary_360</h3>

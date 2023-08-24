@@ -12,15 +12,12 @@ function AboutMe() {
           <p className="summary">
             With over six years of experience in the tech industry, I am a
             seasoned professional dedicated to driving innovation and
-            excellence. I earned my degree in Computer Science from the
-            University of Arkansas in Fayetteville. My diverse expertise
-            encompasses multiple domains, including impactful contributions to
-            game development, DevOps practices, and cutting-edge web
-            development. Throughout my journey, I have honed my skills and
-            refined my problem-solving abilities, always seeking to bridge the
-            gap between creativity and technical precision. Passionate about the
-            intersection of technology and creativity, I am committed to
-            crafting innovative solutions that reshape the digital landscape.
+            excellence. My diverse expertise encompasses multiple domains,
+            including impactful contributions to game development, DevOps
+            practices, and cutting-edge web development. Throughout my journey,
+            I have honed my skills and refined my problem-solving abilities,
+            always seeking to bridge the gap between creativity and technical
+            precision.
           </p>
         </div>
         <div className="rightSection">

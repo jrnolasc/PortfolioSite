@@ -12,12 +12,14 @@
 .abtMe{
   font-size: 30px;
   margin-bottom: 20px;
-  color: rgb(30, 69, 70);
-  text-align: left;
+  color: rgb(15, 33, 102);
+  text-align: center;
 }
 
 .summary{
-  text-align: left;
+  text-align: center;
+  color:  #767676;
+  font-size: 15px;
 }
 
  .abtMe-img{
