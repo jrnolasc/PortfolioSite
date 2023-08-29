@@ -1,6 +1,6 @@
 .hero-container{
   height: 95vh;
-  background-color:#3d6084; 
+  background-color:#243c53; 
 }
 .hero-content{
   display: flex;
@@ -8,11 +8,12 @@
   justify-content: center;
   gap: 3rem;
 }
-.leftSection{
+
+.hero-container .leftSection{
   padding: 1rem ;
 }
 
-.rightSection{
+.hero-container .rightSection{
   padding: 2rem ;
 }
 

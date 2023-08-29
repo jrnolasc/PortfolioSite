@@ -29,7 +29,11 @@ function HeroSection() {
           </Button>
         </div>
         <div className="rightSection">
-          <img className="heroImg" src="images/header_img.png" alt="id" />
+          <img
+            className="heroImg"
+            src="images/Hero_Img.gif"
+            alt="images/header_img.png"
+          />
         </div>
       </div>
     </div>
