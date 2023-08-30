@@ -29,6 +29,12 @@
   justify-content: center;
   
 }
+.skill-icon{
+  width: 50%;
+  height: 50%;
+  filter: grayscale(100%);
+  
+}
 
 .aboutMe-Container .rightSection{
   justify-content: center;
@@ -53,9 +59,11 @@
     border: 1px solid var(white);
     box-shadow: 1px 4px 15px rgba(0,0,0.32);
    
-  }
+  }           
+}
 
-              
+.skill-box:hover img{
+  filter: grayscale(0%);
 }
 
 .aboutMe-Container h4{
@@ -136,6 +144,7 @@
     .abtMe{
       text-align: center;
     }
+    
    
   }
   

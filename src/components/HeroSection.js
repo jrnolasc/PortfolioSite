@@ -31,7 +31,7 @@ function HeroSection() {
         <div className="rightSection">
           <img
             className="heroImg"
-            src="images/Hero_Img.gif"
+            src="images/hero-img2.gif"
             alt="images/header_img.png"
           />
         </div>

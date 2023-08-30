@@ -25,26 +25,66 @@ function AboutMe() {
             <h4>FrontEnd</h4>
             <ul>
               <li>
-                <i class="fa-brands fa-react"></i>
+                <img
+                  className="skill-icon"
+                  src="images/react.png"
+                  alt="not here"
+                />
               </li>
               <li>
-                <i class="fa-brands fa-css3-alt"></i>
+                <img
+                  className="skill-icon"
+                  src="images/css.png"
+                  alt="not here"
+                />
               </li>
               <li>
-                <i class="fa-brands fa-html5"></i>
+                <img
+                  className="skill-icon"
+                  src="images/Html.png"
+                  alt="not here"
+                />
               </li>
               <li>
-                <i class="fa-brands fa-js"></i>
+                <img
+                  className="skill-icon"
+                  src="images/tailwind.png"
+                  alt="not here"
+                />
               </li>
             </ul>
           </div>
           <div className="skill-box">
             <h4>BackEnd</h4>
             <ul>
-              <li>this</li>
-              <li>this</li>
-              <li>this</li>
-              <li>this</li>
+              <li>
+                <img
+                  className="skill-icon"
+                  src="images/postgresql.png"
+                  alt="not here"
+                />
+              </li>
+              <li>
+                <img
+                  className="skill-icon"
+                  src="images/php.png"
+                  alt="not here"
+                />
+              </li>
+              <li>
+                <img
+                  className="skill-icon"
+                  src="images/mySql.png"
+                  alt="not here"
+                />
+              </li>
+              <li>
+                <img
+                  className="skill-icon"
+                  src="images/restAPI.png"
+                  alt="not here"
+                />
+              </li>
             </ul>
           </div>
           <div className="skill-box">
@@ -54,12 +94,26 @@ function AboutMe() {
                 <i class="fa-brands fa-git"></i>
               </li>
               <li>
-                <i class="fa-brands fa-docker"></i>
+                <img
+                  className="skill-icon"
+                  src="images/aws.png"
+                  alt="not here"
+                />
               </li>
               <li>
-                <i class="fa-brands fa-aws"></i>
+                <img
+                  className="skill-icon"
+                  src="images/docker.png"
+                  alt="not here"
+                />
               </li>
-              <li>this</li>
+              <li>
+                <img
+                  className="skill-icon"
+                  src="images/nextjs.png"
+                  alt="not here"
+                />
+              </li>
             </ul>
           </div>
         </div>
