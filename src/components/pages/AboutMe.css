@@ -22,17 +22,30 @@
   font-size: 15px;
 }
 
- .abtMe-img{
-  height: 300px;
-  width: 300px;
-  align-items: center;
-  justify-content: center;
-  
+ .abt-facts{
+    padding: 2rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.abt-facts-box{
+  border: 2px solid rgb(30, 69, 70); 
+  height: auto;
+  width: auto;
+  border-radius: 5px; 
+}
+.facts-text{
+  padding: 1rem 1.3rem;
+  text-align: center;
+  color:  #767676;
+  font-size: 15px;
 }
 .skill-icon{
   width: 50%;
   height: 50%;
   filter: grayscale(100%);
+
   
 }
 
@@ -43,11 +56,9 @@
   grid-template-columns: repeat(3,1fr);
   grid-gap: 10px;
   padding: 2rem ;
-  
-  
 }
 
-.aboutMe-Container .skill-box{
+.skill-box{
   display: inline-block;  
   border: 2px solid rgb(30, 69, 70); 
   height: auto;
@@ -108,10 +119,7 @@
    
   }
   @media only screen and (max-width: 1001px) {
-    .abtMe-img{
-      
-    }
-   
+
   }
   
   @media only screen and (max-height: 1001px) {
@@ -130,9 +138,6 @@
   }
 
   @media screen and (max-height: 590px) {
-    .abtMe-img{
-      text-align: center;
-    }
     .abtMe{
       text-align: center;
     }
@@ -144,6 +149,32 @@
     .abtMe{
       text-align: center;
     }
+   
+    .abt-facts{
+      padding: 1rem;
+  }
+  .abt-facts-box{
+    width: 175px;
+  }
+  .summary{
+    padding: 1rem 1.4rem;
+  }
+  .abt-facts-box i{
+    text-align: center;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .facts-text{
+    padding: 1rem .75rem;
+  }
+
+  .skill-icon{
+    width: 70%;
+    height: 70%;
+  }
+
     
    
   }
