@@ -12,7 +12,10 @@
 .hero-container .leftSection{
   padding: 1rem ;
 }
-
+.heroImg{
+  width: 80%;
+  height: 80%;
+}
 .hero-container .rightSection{
   padding: 2rem ;
 }

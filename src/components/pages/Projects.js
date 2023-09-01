@@ -119,6 +119,17 @@ function Projects() {
                 >
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </p>
+                <p
+                  className="link-icons"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/jrnolasc/St.Marys360/tree/main",
+                      "_blank"
+                    )
+                  }
+                >
+                  <i class="fa-solid fa-code"></i>
+                </p>
               </div>
             </div>
           </div>

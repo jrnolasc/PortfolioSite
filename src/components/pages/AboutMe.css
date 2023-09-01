@@ -34,6 +34,9 @@
   height: auto;
   width: auto;
   border-radius: 5px; 
+  &:hover{
+    border-color: rgb(79, 152, 154);
+  }
 }
 .facts-text{
   padding: 1rem 1.3rem;

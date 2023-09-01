@@ -9,16 +9,16 @@ function AboutMe() {
         <div className="leftSection">
           <h1 className="abtMe">About Me</h1>
           <p className="summary">
-            With over six years of experience in the tech industry, I am a
-            seasoned professional dedicated to driving innovation and
-            excellence. My diverse expertise encompasses multiple domains,
-            including impactful contributions to game development, DevOps
-            practices, and cutting-edge web development. Throughout my journey,
-            I have honed my skills and refined my problem-solving abilities,
-            always seeking to bridge the gap between creativity and technical
-            precision. I am also known for being a collaborative team player,
-            thriving in environments where I can work closely with others to
-            achieve shared goals.
+            With six years of experience in the tech industry, I am a seasoned
+            professional dedicated to driving innovation and excellence. My
+            diverse expertise encompasses multiple domains, including impactful
+            contributions to game development, DevOps practices, and
+            cutting-edge web development. Throughout my journey, I have honed my
+            skills and refined my problem-solving abilities, always seeking to
+            bridge the gap between creativity and technical precision. I am also
+            known for being a collaborative team player, thriving in
+            environments where I can work closely with others to achieve shared
+            goals.
           </p>
           <div className="abt-facts">
             <div className="abt-facts-box">
