@@ -110,6 +110,13 @@
     }
     
   }
+  @media only screen and (min-width: 2000px) {
+   
+    .skill-icon{
+      width: 35%;
+      height: 35%;
+    }
+  }
 
   @media only screen and (min-width: 1201px) {
     .aboutMe-Container {
@@ -120,9 +127,6 @@
       text-align: center; 
     }
    
-  }
-  @media only screen and (max-width: 1001px) {
-
   }
   
   @media only screen and (max-height: 1001px) {
@@ -136,8 +140,7 @@
     .summary{
       text-align: center;
       padding: 0rem 0rem;
-  }
-
+    }
   }
 
   @media screen and (max-height: 590px) {
@@ -155,32 +158,30 @@
    
     .abt-facts{
       padding: 1rem;
-  }
-  .abt-facts-box{
-    width: 175px;
-  }
-  .summary{
-    padding: 1rem 1.4rem;
-  }
-  .abt-facts-box i{
-    text-align: center;
-    font-size: 2.5rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-  .facts-text{
-    padding: 1rem .75rem;
+    }
+    .abt-facts-box{
+      width: 175px;
+    }
+    .summary{
+      padding: 1rem 1.4rem;
+    }
+    .abt-facts-box i{
+      text-align: center;
+      font-size: 2.5rem;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .facts-text{
+      padding: 1rem .75rem;
+    }
+
+    .skill-icon{
+      width: 70%;
+      height: 70%;
+    }  
   }
 
-  .skill-icon{
-    width: 70%;
-    height: 70%;
-  }
-
-    
-   
-  }
   
 
 

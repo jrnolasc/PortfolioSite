@@ -128,4 +128,12 @@
     
   }
 
+  @media only screen and (min-height: 1201px) {
+    .hero-content{
+      position: relative;
+      top: 15rem;
+       
+    }
+   
+  }
 

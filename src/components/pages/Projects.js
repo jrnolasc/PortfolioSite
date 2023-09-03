@@ -49,21 +49,21 @@ function Projects() {
           <div className="project-right">
             <img
               className="project-image"
-              src="images/HTHAS.png"
+              src="images/MIYE.png"
               alt="Housing The Human and Sacred"
               onClick={() =>
                 window.open(
-                  "https://tesseract.hosted.uark.edu/human_and_sacred/public/virtualtour.html",
+                  "http://tesseract.uark.edu/mornin-in-your-eyes/",
                   "_blank"
                 )
               }
             />
             {/* <div className="hover-item"></div> */}
             <div className="project-text">
-              <h3 className="project-name"> Housing The Human and Sacred</h3>
+              <h3 className="project-name"> Mornin' In Your Eyes</h3>
               <p>
-                An innovative WebGL application enabling users to explore
-                residences envisioned by the acclaimed architect Fay Jones.
+                A storybook style game that takes place during the Civil Rights
+                Era. This game runs as a WebGL applicaiton.
               </p>
               <div className="tech-stack">
                 <p className="tech">Unity</p>
